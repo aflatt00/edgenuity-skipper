@@ -6,7 +6,7 @@ skipperSettings.skip = {}
 // BEGIN OF CODE I DIDNT WRITE
 function extend(sup, base) {
     var descriptor = Object.getOwnPropertyDescriptor(
-      base.prototype, 'constructor'
+      base. prototype, 'constructor'
     );
     base.prototype = Object.create(sup.prototype);
     var handler = {
